@@ -39,8 +39,21 @@ git commit -m "[変更内容]"
 git push origin master
 ```
 
+## デプロイルール（全プロジェクト共通・例外なし）
+
+1. 実装完了後は必ず以下の順で行う：
+   ```
+   npm run build  （エラーがないか確認）
+   vercel --prod  （本番デプロイ）
+   git add
+   git commit
+   git push
+   ```
+2. **コミット・Pushなしで作業を終了してはいけない**
+3. `.env.local` は絶対にコミットしない
+
 ## 注意事項
 
 - Coron は `main` ブランチ、Speaq は `master` ブランチ
 - `.env.local` は絶対にコミットしない
-- デプロイ後に git push する（vercel --prod → git push の順）
+- デプロイは `vercel --prod` → `git push` の順を毎回厳守する

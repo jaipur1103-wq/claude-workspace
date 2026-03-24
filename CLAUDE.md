@@ -33,8 +33,6 @@
 - このリポジトリ（claude-workspace）: CLAUDE.md, AGENTS.md, .claude/commands/, knowledge/ のみ管理
 - `coron/` と `english-practice/` は独立した Git リポジトリ（.gitignore で除外）
 
-## 共通デプロイルール（全プロジェクト必須）
+## 共通ルール
 
-- **実装完了後は必ず `vercel --prod` → `git add` → `git commit` → `git push` の順で行う**
-- **例外なし。コミット・Pushなしで作業を終了してはいけない**
-- **.env.local は絶対にコミットしない**
+デプロイ・Git操作のルールは `knowledge/development/git-workflow.md` に従うこと。
