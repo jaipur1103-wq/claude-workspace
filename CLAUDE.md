@@ -18,9 +18,11 @@
 |---|---|---|
 | `/orchestrate` | タスク分析・振り分け | AGENTS.md |
 | `/business` | 戦略・市場・収益 | docs/01_business/ |
-| `/dev` | 実装・API・インフラ | docs/02_development/ + app/ |
-| `/marketing` | LP・SNS・ブランディング | docs/03_marketing/ |
-| `/ops` | KPI・フィードバック・タスク | docs/04_operations/ |
+| `/design` | UI/UX・デザインシステム | docs/02_design/ |
+| `/dev` | 実装・API・インフラ | docs/03_development/ + app/ |
+| `/marketing` | LP・SNS・ブランディング | docs/04_marketing/ |
+| `/ops` | KPI・フィードバック・タスク | docs/05_operations/ |
+| `/legal` | プライバシー・利用規約 | docs/06_legal/ |
 
 ## ナレッジベース
 

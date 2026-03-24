@@ -12,9 +12,11 @@
 
 判断基準：
 - 戦略・市場・収益 → `/business`
+- UI・UX・デザイン → `/design`
 - 実装・バグ・デプロイ → `/dev`
 - LP・SNS・ブランド → `/marketing`
 - KPI・タスク・フィードバック → `/ops`
+- プライバシー・規約 → `/legal`
 - 複数ドメインにまたがる → 順番に各エージェントを呼ぶ
 
 ---
@@ -32,6 +34,18 @@
 
 ---
 
+## Design Agent
+
+**起動**: `/design`
+**専門性**: `.claude/commands/design.md` を参照
+**担当**: デザインシステム・ユーザーフロー・UX原則・コンポーネント仕様
+
+**参照ドキュメント**:
+- Coron: `coron/docs/02_design/`
+- Speaq: `english-practice/docs/02_design/`
+
+---
+
 ## Dev Agent
 
 **起動**: `/dev`
@@ -39,8 +53,8 @@
 **担当**: 実装・API設計・インフラ・バグ修正・デプロイ
 
 **参照ドキュメント**:
-- Coron: `coron/docs/02_development/` + `coron/app/`
-- Speaq: `english-practice/docs/02_development/` + `english-practice/app/`
+- Coron: `coron/docs/03_development/` + `coron/app/`
+- Speaq: `english-practice/docs/03_development/` + `english-practice/app/`
 - 共通: `knowledge/development/`
 
 ---
@@ -52,8 +66,8 @@
 **担当**: LP・SNS戦略・ブランディング・PR・インフルエンサー
 
 **参照ドキュメント**:
-- Coron: `coron/docs/03_marketing/`
-- Speaq: `english-practice/docs/03_marketing/`
+- Coron: `coron/docs/04_marketing/`
+- Speaq: `english-practice/docs/04_marketing/`
 
 ---
 
@@ -64,5 +78,17 @@
 **担当**: KPI追跡・ユーザーフィードバック・タスク管理
 
 **参照ドキュメント**:
-- Coron: `coron/docs/04_operations/`
-- Speaq: `english-practice/docs/04_operations/`
+- Coron: `coron/docs/05_operations/`
+- Speaq: `english-practice/docs/05_operations/`
+
+---
+
+## Legal Agent
+
+**起動**: `/legal`
+**専門性**: `.claude/commands/legal.md` を参照
+**担当**: プライバシーポリシー・利用規約・App Store 審査要件・個人情報保護法対応
+
+**参照ドキュメント**:
+- Coron: `coron/docs/06_legal/`
+- Speaq: `english-practice/docs/06_legal/`
