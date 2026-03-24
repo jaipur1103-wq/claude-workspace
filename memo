@@ -1,0 +1,9 @@
+claude --dangerously-skip-permissions
+claude --dangerously-skip-permissions
+
+cd "C:\Users\Shuji Miura\OneDrive\デスクトップ\Claude\english-practice"
+claude --dangerously-skip-permissions
+
+cd "C:\Users\Shuji Miura\OneDrive\デスクトップ\Claude\coron"
+claude --dangerously-skip-permissions
+

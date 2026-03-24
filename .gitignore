@@ -1,0 +1,7 @@
+# サブプロジェクト（独立した Git リポジトリ）
+coron/
+english-practice/
+
+# システムファイル
+.DS_Store
+Thumbs.db
